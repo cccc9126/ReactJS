@@ -12,8 +12,8 @@ const createUser = (name, age = 18, role = "user") => {
         role
     };
 }
-// Ví dụ sử dụng hàm
+
 const user1 = createUser("Alice");
 const user2 = createUser("Bob", 25, "admin");
-console.log(user1); // { name: 'Alice', age: 18, role: 'user' }
-console.log(user2); // { name: 'Bob', age: 25, role:
+console.log(user1);
+console.log(user2);

@@ -1,15 +1,16 @@
-// Viết 1 hàm tạo một đối tượng người dùng với name, age và role
-// Hàm này có thể nhận tối đa 3 đối số là name , age , role .  
-// name : Tên người dùng .
-// age: Tuổi .
-// role : Vai trò của người dùng .
-// Nếu hàm không truyền vào giá trị cho age hoặc role thì mặc định age = 18 và role = “user”
-// Sử dụng Default Parameter 
-let arr = [[1, 2, 3], [4, 7,5, 6], [7, 8, 9]];
-for (let i = 0; i < arr.length; i++) {
-    let sum = 0;
-    for (let j = 0; j < arr[i].length; j++) {
-        sum += arr[i][j];
-    }
-    console.log(`Tổng của mảng ${i + 1} là: ${sum}`);
-}
+// Rest parameter (...args) để nhận số lượng tham số không xác định.
+// Array methods như reduce() để tính tổng các phần tử trong mảng.
+// Sử dụng arrow function để viết hàm ngắn gọn và dễ đọc.
+// 2. Mô tả
+// Xây dựng hàm có tham số là các mảng, số lượng tham số là không xác định. 
+// Hàm có tác dụng tính tổng các phần tử trong các mảng được truyền vào và lưu tổng đó vào một mảng mới.
+// Kết quả trả về là mảng chứa tổng của các mảng là đối số truyền vào.
+const sumArrays = (...arrays) => {
+    
+    return arrays.map(array => {
+        return array.reduce((sum, num) => sum + num, 0);
+    });
+};
+
+console.log(sumArrays([1, 2, 3], [4, 5], [6])); 
+
