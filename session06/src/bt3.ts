@@ -10,7 +10,7 @@ abstract class Animal {
     getDetails(): string {
         return `Tên: ${this.name}`;
     }
-
+        
     // Abstract method
     abstract sound(): string;
 }
@@ -29,3 +29,8 @@ console.log(cat.sound());      // Meo meo
 // và phải được định nghĩa trong các lớp con như `Cat`. Điều này buộc các lớp con phải cung cấp cách thực hiện cụ thể cho phương thức này.
 // Abstract method thường được sử dụng khi bạn muốn đảm bảo rằng tất cả các lớp con đều phải cung cấp một cách thực hiện cụ thể cho một hành động nào đó, trong khi method bình thường có thể được sử dụng để
 // cung cấp một hành động chung mà không cần phải được định nghĩa lại trong các lớp con
+
+
+
+
+    
