@@ -13,13 +13,14 @@ import Homework6_1 from './components/Homework6_1'
 import Homework6_2 from './components/Homework6_2'
 import Homework6 from './components/Homework6'
 import Homework7 from './components/Homework7'
+import Homework8 from './components/Homework8'
 function App() {
   
  
   return (
     
     <>
-      <Homework7></Homework7>
+      <Homework8></Homework8>
     </>
   )
 }
