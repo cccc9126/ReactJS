@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-     <Homework2></Homework2>
+     <Homework1></Homework1>
     </>
   )
 }
