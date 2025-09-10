@@ -1,17 +1,19 @@
-// router.tsx
 import { createBrowserRouter } from "react-router-dom";
-import App from "./App";
-import Contact from "./pages/Contact";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import NotFound from "./pages/NotFound";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Product from "./pages/Product";
+import Detail from "./pages/Detail";
 
 const router = createBrowserRouter([
-  { path: "/", element: <App /> },
-  { path: "/contact", element: <Contact /> },
-  { path: "/login", element: <Login /> },
-  { path: "/register", element: <Register /> },
-  { path: "*", element: <NotFound /> },
+  {
+    path: "/",
+    element: <Layout />, 
+    children: [
+      { index: true, element: <Home /> }, 
+      { path: "product", element: <Product /> },
+      { path: "detail", element: <Detail /> },
+    ],
+  },
 ]);
 
 export default router;
