@@ -1,0 +1,44 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "product_name": "Chuột không dây Logitech M185",
+      "image": "https://example.com/images/logitech-m185.jpg",
+      "price": 220000,
+      "quantity": 50,
+      "created_at": "2025-09-15T15:23:00+07:00"
+    },
+    {
+      "id": 2,
+      "product_name": "Bàn phím cơ Akko 3068",
+      "image": "https://example.com/images/akko-3068.jpg",
+      "price": 1200000,
+      "quantity": 30,
+      "created_at": "2025-09-15T15:23:00+07:00"
+    },
+    {
+      "id": 3,
+      "product_name": "Tai nghe Sony WH-CH510",
+      "image": "https://example.com/images/sony-wh-ch510.jpg",
+      "price": 790000,
+      "quantity": 20,
+      "created_at": "2025-09-15T15:23:00+07:00"
+    },
+    {
+      "id": 4,
+      "product_name": "Ổ cứng SSD Kingston 240GB",
+      "image": "https://example.com/images/kingston-ssd-240gb.jpg",
+      "price": 650000,
+      "quantity": 15,
+      "created_at": "2025-09-15T15:23:00+07:00"
+    },
+    {
+      "id": 5,
+      "product_name": "Màn hình LG 24MP400",
+      "image": "https://example.com/images/lg-24mp400.jpg",
+      "price": 2300000,
+      "quantity": 10,
+      "created_at": "2025-09-15T15:23:00+07:00"
+    }
+  ]
+}
