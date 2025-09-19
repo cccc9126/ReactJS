@@ -25,7 +25,7 @@ function App() {
     });
   };
 
-  // Add task
+
   const addTask = () => {
     if (!newTask.trim()) return;
     axios
@@ -39,7 +39,7 @@ function App() {
       });
   };
 
-  // Toggle done
+
   const toggleTask = (task: Task) => {
     axios
       .put(`http://localhost:3000/toDoList/${task.id}`, {
@@ -115,7 +115,7 @@ function App() {
             <div className="actions">
               {editingTask?.id === task.id ? (
                 <button className="save" onClick={saveEdit}>
-                  💾
+                  Lưu
                 </button>
               ) : (
                 <button className="edit" onClick={() => setEditingTask(task)}>
