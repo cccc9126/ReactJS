@@ -8,7 +8,7 @@ import Hw6 from './component/Hw6'
 
 function App() {
   return (
-    <div><Hw6/></div>
+    <div><Hw4/></div>
   )
 }
 

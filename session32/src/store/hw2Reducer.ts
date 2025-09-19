@@ -23,7 +23,7 @@ const initialState: User[] = [
   },
 ];
 
-const hw2Reducer = (state = initialState, action: any) => {
+const hw2Reducer = (state:User[] = initialState, action:any) => {
   switch (action.type) {
     default:
       return state;

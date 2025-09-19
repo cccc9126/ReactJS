@@ -1,3 +1,5 @@
+import { useReducer } from "react";
+
 const initialState = { counter: 0 };
 
 const hw3Reducer = (state = initialState, action: any) => {

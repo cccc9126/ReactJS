@@ -13,9 +13,8 @@ const rootReducer = combineReducers({
   hw6: hw6Reducer,
 });
 
-export type RootState = ReturnType<typeof rootReducer>;
+export type RootState=ReturnType<typeof rootReducer>
 
-// tạo store
 const store = createStore(rootReducer);
 
 export default store;
