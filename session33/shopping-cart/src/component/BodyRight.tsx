@@ -1,8 +1,17 @@
 import React from 'react'
 import BodyRightItem from './BodyRightItem'
 import CartNotice from './CartNotice';
-
+import type { RootState } from '../reducer';
+import { useSelector } from 'react-redux';
+interface Product {
+  id: number;
+  name: string;
+  description: string;
+  quantity: number;
+  price: number;
+}
 function BodyRight() {
+  const cart:Product[] = useSelector((state: RootState) => state.reducer2);
   return (
     <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
       <div className="panel panel-danger">
@@ -26,10 +35,10 @@ function BodyRight() {
             <tfoot id="my-cart-footer">
               <tr>
                 <td colSpan={4}>
-                  There are <b>2</b> items in your shopping cart.
+                  There are <b>{cart.length }</b> items in your shopping cart.
                 </td>
                 <td colSpan={2} className="total-price text-left">
-                  630 USD
+                  {cart.reduce((total, c) => total+c.price,0)}
                 </td>
               </tr>
             </tfoot>

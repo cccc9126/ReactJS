@@ -10,9 +10,7 @@ function BodyLeft() {
         </div>
         <div className="panel-body" id="list-product">
           <BodyLeftItem />
-          <BodyLeftItem />
-          <BodyLeftItem />
-          <BodyLeftItem />
+         
         </div>
       </div>
     </div>
