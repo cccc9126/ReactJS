@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": "p001",
+      "code": "SP001",
+      "name": "Chuột không dây Logitech M185",
+      "category": "Phụ kiện",
+      "price": 250000,
+      "image": "https://example.com/images/mouse-m185.jpg",
+      "status": "available"
+    },
+    {
+      "id": "p002",
+      "code": "SP002",
+      "name": "Bàn phím cơ Keychron K2",
+      "category": "Phụ kiện",
+      "price": 1800000,
+      "image": "https://example.com/images/keychron-k2.jpg",
+      "status": "available"
+    },
+    {
+      "id": "p003",
+      "code": "SP003",
+      "name": "Màn hình Samsung 24 inch",
+      "category": "Thiết bị",
+      "price": 3200000,
+      "image": "https://example.com/images/samsung-24.jpg",
+      "status": "out_of_stock"
+    },
+    {
+      "id": "9665d539-08f5-44fc-b7a4-e51f64b0814c",
+      "code": "rewq",
+      "name": "rewr",
+      "category": "2",
+      "price": 3425,
+      "image": "",
+      "status": "active"
+    }
+  ]
+}
